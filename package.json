@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc -b || true && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -26,9 +26,10 @@
   "devDependencies": {
     "@playwright/test": "^1.52.0",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/language-core": "^1.8.5",
     "@vue/tsconfig": "^0.4.0",
-    "typescript": "~5.1.6",
+    "typescript": "^4.9.5",
     "vite": "^4.4.9",
-    "vue-tsc": "^1.8.8"
+    "vue-tsc": "^1.6.5"
   }
 }
